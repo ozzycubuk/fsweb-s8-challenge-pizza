@@ -71,7 +71,7 @@ export default function Order() {
 
     setLoading(true);
     try {
-      const res = await axios.post("https://reqres.in/api/pizza", payload);
+      const res = await axios.post("https://reqres.in/api/pizza", payload, {headers:{"x-api-key": "reqres-free-v1"}});
       console.log("Sunucudan gelen yanıt:", res.data);
       // Yönlendirme başarılı sayfaya
       history.push("/success");
