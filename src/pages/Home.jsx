@@ -4,11 +4,12 @@ export default function Home() {
   const history = useHistory();
 
   return (
+  <body class= "homebody">
     <div
       style={{
-        maxWidth: 400,
+        maxWidth: 900,
         margin: "auto",
-        backgroundColor: "#FAF7F2",
+        backgroundColor: "#CE282829",
         padding: 20,
         borderRadius: 8,
         textAlign: "center",
@@ -23,11 +24,16 @@ export default function Home() {
           fontSize: "3rem",
           marginBottom: 12,
           userSelect: "none",
+          color: "white",
+          backgroundColor: "#CE2829"
         }}
       >
         Teknolojik Yemekler
       </h1>
-      <p style={{ fontSize: "1.1rem", marginBottom: 24 }}>
+      <p style={{ fontSize: "3rem",
+         marginBottom: 24,
+         color: "white"
+         }}>
         KOD ACIKTIRIR, PİZZA DOYURUR.
       </p>
       <button
@@ -50,5 +56,6 @@ export default function Home() {
         Sipariş Ver
       </button>
     </div>
+  </body>
   );
 }

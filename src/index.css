@@ -5,6 +5,19 @@ body {
   background-color: #FAF7F2; /* bej */
   color: #292929; /* koyu gri */
   padding: 20px;
+
+
+.homebody{
+  font-family: 'Barlow', sans-serif;
+  background-color: #FAF7F2; /* bej */
+  color: #292929; /* koyu gri */
+  padding: 500px;
+  background-image: url(C:\Users\p\Documents\GitHub\fsweb-s8-challenge-pizza\images\iteration-1-images\home-banner.png );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 }
 
 button {
